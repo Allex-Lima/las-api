@@ -9,7 +9,7 @@ function saudar(nome) {
 
 // Escreva uma função que receba um nome completo e retorna apenas o primeiro nome: Tiago Lage Payne de Pádua -> Tiago
 function extrairPrimeiroNome(nomeCompleto) {
-    return nomeCompleto.split(' ').shift();
+    return nomeCompleto.split(' ').slice(0,1).join();
 }
 
 // Escreva uma função que receba uma palavra e torna a primeira letra maiúscula e as outras minúsculas: tIaGo -> Tiago
